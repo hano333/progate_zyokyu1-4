@@ -1,0 +1,17 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  
+}
+
+/*3 670以下の時、メニューを非表示、アイコンを表示*/
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+}
